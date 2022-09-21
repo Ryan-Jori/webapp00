@@ -1,7 +1,6 @@
 #Projeto Hackathon Mackenzie2022
 #Bibliotecas
 import streamlit as st
-import plotly.graph_objects as go
 
 # Título
 st.title("Cálculo CCE - Dólar")
@@ -50,10 +49,19 @@ if st.button('Consultar'):
   if option == 'SF6 (Hexafluoreto de Enxofre)':
     st.write(number, "toneladas conferem", number*23900, "créditos")
     number = 23900*number
-  
-  
- # Gráfico representando a proporção e distribuição do ganho por tonelada de gás reduzido.
-  
+   
+ # Tabela representando a proporção e distribuição do ganho por tonelada de gás reduzido.
+  col1, col2 = st.columns(2)
+  col1.write("Valor Doado: ")
+  col2.write("R$", (number/100)*10, " (10%)")
+
+  col1, col2 = st.columns(2)
+  col1.write("Lucro da Empresa: ")
+  col2.write("R$", (number/100)*70, " (70%)")
+    
+  col1, col2 = st.columns(2)
+  col1.write("Parcela do Serviço contratado: ")
+  col2.write("R$", (number/100)*20, " (20%)")
 #Proporção crédito de carbono/dólar
 
 
