@@ -40,10 +40,7 @@ with tab3:
     #Coleção dos dados relacionados à quantidade reduzida.
     number = st.number_input('insira o valor em Toneladas')
     
-    values = st.slider(
-    'Selecione o quanto deseja doar da sua quantia : ',
-    5.0, 100.0, (25.0, 75.0))
-    st.write('Values:', values)
+    values = st.slider('Valor a ser doado', 5, 80, 55)
 
     #Botão que aciona o cálculo de proporção de ganho pela quantia reduzida da emissão.
     if st.button('Consultar'):
@@ -68,7 +65,7 @@ with tab3:
         st.write("")
 
         st.write("Lucro da Empresa: ")
-        st.write("R$", ((number*175)/100)*80+values, " (70%)")
+        st.write("R$", ((number*175)/100)*80-values, " (80%)")
         st.write("")
 
         st.write("Parcela do Serviço contratado: ")
