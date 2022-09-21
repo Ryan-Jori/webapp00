@@ -1,13 +1,13 @@
 #Projeto Hackathon Mackenzie2022
 #Bibliotecas
 import streamlit as st
-import pandas as pd
+import plotly.graph_objects as go
 
 # Título
 st.title("Cálculo CCE - Dólar")
 
 # Descrição do Projeto
-st.header("A finalidade deste projeto é calcular o lucro baseado na redução da emissão de gases nocivos às condições globais.")
+st.header("A finalidade deste projeto é calcular o lucro baseado na redução da emissão de gases nocivos às condições globais, doando parte deste para Organizações Não Governamentais.")
 
 
 # Use st.write("") para adicionar um texto ao seu Web app
@@ -53,10 +53,6 @@ if st.button('Consultar'):
   
   
  # Gráfico representando a proporção e distribuição do ganho por tonelada de gás reduzido.
-  st.write("Valor acarretado por céditos de Carbono :", number)
-
-  labels = ['Doações', 'Recebido pela empresa', 'Serviço']
-  values = [(number/100)*10, (number/100)*80, (number/100)*10]
   
 #Proporção crédito de carbono/dólar
 
