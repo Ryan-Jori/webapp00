@@ -6,7 +6,7 @@ tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 
 with tab1:
     # Título
-    st.title("Cálculo CCE - Dólar")
+    st.title("Estufa e Doa")
 
     # Descrição do Projeto
     st.header("A finalidade deste projeto é calcular o lucro baseado na redução da emissão de gases nocivos às condições globais, doando parte deste para Organizações Não Governamentais.")
@@ -40,7 +40,7 @@ with tab3:
     #Coleção dos dados relacionados à quantidade reduzida.
     number = st.number_input('insira o valor em Toneladas')
     
-    values = st.slider('Valor a ser doado', 5, 80, 55)
+    values = st.slider('Valor a ser doado (Em porcentagem)', 5, 80, 45)
 
     #Botão que aciona o cálculo de proporção de ganho pela quantia reduzida da emissão.
     if st.button('Consultar'):
