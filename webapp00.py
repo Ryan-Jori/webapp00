@@ -1,6 +1,7 @@
 #Projeto Hackathon Mackenzie2022
 #Bibliotecas
 import streamlit as st
+import pandas as ps
   
 # Título
 st.title("Cálculo CCE - Dólar")
@@ -15,13 +16,6 @@ st.write("Insira abaixo as informações necessárias para o cálculo.")
 option = st.selectbox(
     'Qual gás nocivo deseja reduzir?',
     ('CO2 (Carbono)', 'CH4 (Gás Metano)', 'SF6 (Hexafluoreto de Enxofre)'))
-
-#informativo relacionado a quantidade de gás reduzida 
-df = pd.DataFrame(
-   np.random.randn(3, 2),
-   lines=('Gás Carbonico', 'Gás Metano', 'Hexafluoreto de Enxofre'))
-
-st.table(df)
 
 #Proporção gás/crédito de carbono
 if option == 'CO2 (Carbono)':
