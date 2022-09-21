@@ -1,7 +1,7 @@
 #Projeto Hackathon Mackenzie2022
 #Bibliotecas
 import streamlit as st
-import pandas as ps
+import pandas as pd
   
 # Título
 st.title("Cálculo CCE - Dólar")
@@ -11,6 +11,12 @@ st.header("A finalidade deste projeto é calcular o lucro baseado na redução d
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Insira abaixo as informações necessárias para o cálculo.")
+
+df = pd.DataFrame(
+   np.random.randn(10, 5),
+   columns=('col %d' % i for i in range(5)))
+
+st.table(df)
 
 # Selecionar o gás
 option = st.selectbox(
