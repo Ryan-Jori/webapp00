@@ -4,14 +4,14 @@ import streamlit as st
 
 tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 
-With tab1:
+with tab1:
     # Título
     st.title("Cálculo CCE - Dólar")
 
     # Descrição do Projeto
     st.header("A finalidade deste projeto é calcular o lucro baseado na redução da emissão de gases nocivos às condições globais, doando parte deste para Organizações Não Governamentais.")
 
-With tab2:
+with tab2:
     # Use st.write("") para adicionar um texto ao seu Web app
     st.write("Um crédito de carbono equivale a R$175,00")
 
@@ -28,7 +28,7 @@ With tab2:
     col1.write("Hexafluoreto de Enxofre")
     col2.write("23900 Créditos por Tonelada")
 
-With tab3:    
+with tab3:    
     # Use st.write("") para adicionar um texto ao seu Web app
     st.write("Insira abaixo as informações necessárias para o cálculo.")
 
