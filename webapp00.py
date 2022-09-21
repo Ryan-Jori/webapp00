@@ -18,7 +18,7 @@ st.write("Como já deve ter percebido, o método st.write() é usado para escrit
 # Selecionar o gás
 option = st.selectbox(
     'Qual gás nocivo deseja reduzir?',
-    ('CO2(Carbono)', 'CH4(Gás Metano)', 'SF6 (Hexafluoreto de Enxofre)'))
+    ('CO2 (Carbono)', 'CH4 (Gás Metano)', 'SF6 (Hexafluoreto de Enxofre)'))
 
 st.write('Você selecionou ', option)
 
