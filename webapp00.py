@@ -52,12 +52,12 @@ if st.button('Consultar'):
    
  # Tabela representando a proporção e distribuição do ganho por tonelada de gás reduzido.
   st.write("Valor Doado: ")
-  st.write("R$", (number/100)*10, " (10%)")
+  st.write("R$", ((number*175)/100)*10, " (10%)")
     
   st.write("Lucro da Empresa: ")
-  st.write("R$", (number/100)*70, " (70%)")
+  st.write("R$", ((number*175)/100)*70, " (70%)")
    
   st.write("Parcela do Serviço contratado: ")
-  st.write("R$", (number/100)*20, " (20%)")
+  st.write("R$", ((number*175)/100)*20, " (20%)")
 
 
