@@ -39,6 +39,11 @@ with tab3:
 
     #Coleção dos dados relacionados à quantidade reduzida.
     number = st.number_input('insira o valor em Toneladas')
+    
+    values = st.slider(
+    'Selecione o quanto deseja doar da sua quantia : ',
+    5.0, 100.0, (25.0, 75.0))
+    st.write('Values:', values)
 
     #Botão que aciona o cálculo de proporção de ganho pela quantia reduzida da emissão.
     if st.button('Consultar'):
@@ -53,14 +58,17 @@ with tab3:
         if option == 'SF6 (Hexafluoreto de Enxofre)':
             st.write(number, "toneladas conferem", number*23900, "créditos")
             number = 23900*number
+     
+    
+        
 
      # Tabela representando a proporção e distribuição do ganho por tonelada de gás reduzido.
         st.write("Valor Doado: ")
-        st.write("R$", ((number*175)/100)*10, " (10%)")
+        st.write("R$", ((number*175)/100)*values, " (", values," %)")
         st.write("")
 
         st.write("Lucro da Empresa: ")
-        st.write("R$", ((number*175)/100)*70, " (70%)")
+        st.write("R$", ((number*175)/100)*80+values, " (70%)")
         st.write("")
 
         st.write("Parcela do Serviço contratado: ")
