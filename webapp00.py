@@ -36,13 +36,14 @@ number = st.number_input('insira o valor em Toneladas')
 #Botão que aciona o cálculo de proporção de ganho pela quantia reduzida da emissão.
 if st.button('Consultar'):
   if option == 'CO2 (Carbono)':
+    st.write(number, "toneladas conferem", number, "créditos")  
     
  
-if option == 'CH4 (Gás Metano)':
-
+  if option == 'CH4 (Gás Metano)':
+    st.write("Insira abaixo as informações necessárias para o cálculo.")
   
-if option == 'SF6 (Hexafluoreto de Enxofre)':
-
+  if option == 'SF6 (Hexafluoreto de Enxofre)':
+    st.write("Insira abaixo as informações necessárias para o cálculo.")
 
   
 #Proporção crédito de carbono/dólar
