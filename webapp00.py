@@ -2,8 +2,8 @@
 #Bibliotecas
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
-  
+import plotly.graph_objects as go
+
 # Título
 st.title("Cálculo CCE - Dólar")
 
@@ -55,18 +55,9 @@ if st.button('Consultar'):
   
  # Gráfico representando a proporção e distribuição do ganho por tonelada de gás reduzido.
   st.write("Valor acarretado por céditos de Carbono :", number)
-  
-  labels = 'Doações', 'Recebido pela empresa', 'Serviço'
-  sizes = [(number/100)*10, (number/100)*80, (number/100)*10]
-  explode = (0, 0.1, 0, )  # only "explode" the 2nd slice (i.e. 'Hogs')
 
-  fig1, ax1 = plt.subplots()
-  ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-        shadow=True, startangle=90)
-  ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-
-  st.pyplot(fig1)
-
+  labels = ['Doações', 'Recebido pela empresa', 'Serviço']
+  values = [(number/100)*10, (number/100)*80, (number/100)*10]
   
 #Proporção crédito de carbono/dólar
 
