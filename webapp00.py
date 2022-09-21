@@ -2,7 +2,6 @@
 #Bibliotecas
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
 
 # Título
 st.title("Cálculo CCE - Dólar")
@@ -58,8 +57,6 @@ if st.button('Consultar'):
 
   labels = ['Doações', 'Recebido pela empresa', 'Serviço']
   values = [(number/100)*10, (number/100)*80, (number/100)*10]
-  fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.3)])
-  fig.show()
   
 #Proporção crédito de carbono/dólar
 
