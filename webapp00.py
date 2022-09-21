@@ -12,11 +12,10 @@ st.header("A finalidade deste projeto é calcular o lucro baseado na redução d
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Insira abaixo as informações necessárias para o cálculo.")
 
-df = pd.DataFrame(
-   np.random.randn(10, 5),
-   columns=('col %d' % i for i in range(5)))
-
-st.table(df)
+ 
+col1, col2 = st.columns(2)
+col1.write("This is column 1")
+col2.write("This is column 2")
 
 # Selecionar o gás
 option = st.selectbox(
