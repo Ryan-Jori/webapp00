@@ -12,7 +12,7 @@ st.header("A finalidade deste projeto é calcular o lucro baseado na redução d
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Insira abaixo as informações necessárias para o cálculo.")
 
- '''
+'''
 col1, col2 = st.columns(2)
 col1.write("Carbono")
 col2.write("1 Crédito por Tonelada")
