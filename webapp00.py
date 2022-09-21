@@ -12,7 +12,7 @@ st.header("A finalidade deste projeto é calcular o lucro baseado na redução d
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Insira abaixo as informações necessárias para o cálculo.")
 
- 
+ '''
 col1, col2 = st.columns(2)
 col1.write("Carbono")
 col2.write("1 Crédito por Tonelada")
@@ -24,6 +24,19 @@ col2.write("21 Créditos por Tonelada")
 col5, col6 = st.columns(2)
 col1.write("Hexafluoreto de Enxofre")
 col2.write("23900 Créditos por Tonelada")
+'''
+
+tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
+tab1.write("Carbono")
+tab2.write("1 Crédito por Tonelada")
+
+tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
+tab1.write("Metano")
+tab2.write("21 Créditos por Tonelada")
+
+tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
+tab1.write("Hexafluoreto de Enxofre")
+tab2.write("23900 Créditos por Tonelada")
 
 
 # Selecionar o gás
