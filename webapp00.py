@@ -40,7 +40,7 @@ if st.button('Consultar'):
     
  
   if option == 'CH4 (Gás Metano)':
-    st.write("Insira abaixo as informações necessárias para o cálculo.")
+    st.write(number, "toneladas conferem", number*21, "créditos")
   
   if option == 'SF6 (Hexafluoreto de Enxofre)':
     st.write("Insira abaixo as informações necessárias para o cálculo.")
