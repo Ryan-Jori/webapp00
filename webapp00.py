@@ -43,7 +43,7 @@ if st.button('Consultar'):
     st.write(number, "toneladas conferem", number*21, "créditos")
   
   if option == 'SF6 (Hexafluoreto de Enxofre)':
-    st.write("Insira abaixo as informações necessárias para o cálculo.")
+    st.write(number, "toneladas conferem", number*23900, "créditos")
 
   
 #Proporção crédito de carbono/dólar
