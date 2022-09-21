@@ -17,6 +17,11 @@ option = st.selectbox(
     ('CO2 (Carbono)', 'CH4 (Gás Metano)', 'SF6 (Hexafluoreto de Enxofre)'))
 
 #informativo relacionado a quantidade de gás reduzida 
+df = pd.DataFrame(
+   np.random.randn(3, 2),
+   lines=('Gás Carbonico', 'Gás Metano', 'Hexafluoreto de Enxofre'))
+
+st.table(df)
 
 #Proporção gás/crédito de carbono
 if option == 'CO2 (Carbono)':
@@ -28,8 +33,6 @@ if option == 'CH4 (Gás Metano)':
 if option == 'SF6 (Hexafluoreto de Enxofre)':
   st.write('Uma tonelada deemissão de carbono reduzida equivale a 23900 Créditos de carbono')
   
- 
-
 #Proporção crédito de carbono/dólar
 
 
