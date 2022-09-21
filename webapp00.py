@@ -51,17 +51,13 @@ if st.button('Consultar'):
     number = 23900*number
    
  # Tabela representando a proporção e distribuição do ganho por tonelada de gás reduzido.
-  col1, col2 = st.columns(2)
-  col1.write("Valor Doado: ")
-  col2.write("R$", (number/100)*10, " (10%)")
-
-  col1, col2 = st.columns(2)
-  col1.write("Lucro da Empresa: ")
-  col2.write("R$", (number/100)*70, " (70%)")
+  st.write("Valor Doado: ")
+  st.write("R$", (number/100)*10, " (10%)")
     
-  col1, col2 = st.columns(2)
-  col1.write("Parcela do Serviço contratado: ")
-  col2.write("R$", (number/100)*20, " (20%)")
-#Proporção crédito de carbono/dólar
+  st.write("Lucro da Empresa: ")
+  st.write("R$", (number/100)*70, " (70%)")
+   
+  st.write("Parcela do Serviço contratado: ")
+  st.write("R$", (number/100)*20, " (20%)")
 
 
