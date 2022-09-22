@@ -46,17 +46,17 @@ with tab3:
     if st.button('Consultar'):
         if option == 'CO2 (Carbono)':
             st.write(number, "toneladas conferem", number, "créditos")  
-            st.write(number, "créditos conferem", number*175)  
+            st.write(number, "créditos conferemR$", number*175)  
 
         if option == 'CH4 (Gás Metano)':
             st.write(number, "toneladas conferem", number*21, "créditos")
             number = 21*number
-            st.write(number, "créditos conferem", number*175)  
+            st.write(number, "créditos conferemR$", number*175)  
             
         if option == 'SF6 (Hexafluoreto de Enxofre)':
             st.write(number, "toneladas conferem", number*23900, "créditos")
             number = 23900*number
-            st.write(number, "créditos conferem", number*175)  
+            st.write(number, "créditos conferem R$", number*175)  
          
      
     
@@ -64,15 +64,15 @@ with tab3:
 
      # Tabela representando a proporção e distribuição do ganho por tonelada de gás reduzido.
         
-        st.write("Valor Doado: ")
+        st.header("Valor Doado: ")
         st.write("R$", ((number*175)/100)*values, " (", values," %)")
         st.write("")
 
-        st.write("Lucro da Empresa: ")
+        st.header("Lucro da Empresa: ")
         st.write("R$", ((number*175)/100)*80-values, " (", 80 - values, "%)")
         st.write("")
 
-        st.write("Parcela do Serviço contratado: ")
+        st.header("Parcela do Serviço contratado: ")
         st.write("R$", ((number*175)/100)*20, " (", 20, "%)")
         st.write("")
 
