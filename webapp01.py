@@ -32,7 +32,7 @@ with tab1:
 #------------------------------------------------------------------------ Primeira Aba
 with tab2:
     # Título
-    cola, colb, colc = st.columns([5,6,2])
+    cola, colb, colc = st.columns([4,6,2])
 
     with cola:
         st.write("")
