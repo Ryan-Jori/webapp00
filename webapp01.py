@@ -8,6 +8,7 @@ from PIL import Image
 #Separação de Abas
 tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 
+add_image = st.image('https://media.discordapp.net/attachments/1021891230868717588/1022296227645239306/ecodoalogo-removebg-preview.png', width=60)
 add_selectbox = st.sidebar.selectbox(
     "Contate-nos via:",
     ("Email", "Telefone")
