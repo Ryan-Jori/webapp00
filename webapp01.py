@@ -6,7 +6,7 @@ import streamlit as st
 from PIL import Image
 
 #Separação de Abas
-tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
+tab1, tab2, tab3, tab4 = st.tabs(["Início", "Sobre Nós", "Informações", "Amostra"])
 
 with st.sidebar:
     cola, colb, colc = st.columns([1,6,1])
@@ -26,6 +26,10 @@ add_selectbox = st.sidebar.selectbox(
 
 #------------------------------------------------------------------------ Primeira Aba
 with tab1:
+    
+
+#------------------------------------------------------------------------ Primeira Aba
+with tab2:
     # Título
     cola, colb, colc = st.columns([4,6,2])
 
@@ -42,7 +46,7 @@ with tab1:
     st.write("  Nosso web aplicativo “EcoDoa” visa como pricipal objetivo a solução de dois problemas através da redução de CO2 e outros gases estufa liberados na atmosfera durante o processo produtivo de grandes empresas. A ideia base do projeto consiste em medir a redução da emissão de gás na atmosfera e após isso converter a quantidade em créditos (que virão dos fundos nacionais e internacionais), calcular a porcentagem que será destinada tanto para doação quanto para as empresas, assim incentivando a redução dos gases causadores do aquecimento  global por parte das grandes empresas, destinando parte desses créditos para instituições e projetos de caridade e também ajudando na preservação do ecossistema. ")
     
 #------------------------------------------------------------------------ Segunda Aba
-with tab2:
+with tab3:
     # Use st.write("") para adicionar um texto ao seu Web app
     st.header('Créditos de Carbono')
     st.write('Crédito de carbono é um conceito surgido no fim dos anos 90, visando reduzir a emissão de gáses que intensificam o efeito estufa e combater o grande problema das mudanças climáticas. A ideia surgiu no Protocolo de Kyoto, dizendo que cada tonelada de carbono ou outros gases reduzida por um país, uma certificação é emitida pelo MDL (Mecanismo de Desenvolvimento Limpo).')
@@ -72,7 +76,7 @@ with tab2:
     col2.write("23900 Créditos por Tonelada")
     
 #------------------------------------------------------------------------ Terceira Aba
-with tab3:
+with tab4:
     
     st.title("Calculadora")
     
