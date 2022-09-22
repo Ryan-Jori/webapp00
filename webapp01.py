@@ -1,16 +1,21 @@
 #Projeto Hackathon Mackenzie2022
+#EcoDoa
+
 #Bibliotecas
 import streamlit as st
 
+#Separação de Abas
 tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 
+#------------------------------------------------------------------------ Primeira Aba
 with tab1:
     # Título
     st.title("EcoDoa")
 
     # Descrição do Projeto
-    st.header("A finalidade deste projeto é calcular o lucro baseado na redução da emissão de gases nocivos às condições globais, doando parte deste para Organizações Não Governamentais.")
-
+    st.write("A finalidade deste projeto é calcular o lucro baseado na redução da emissão de gases nocivos às condições globais, doando parte deste para Organizações Não Governamentais.")
+    
+#------------------------------------------------------------------------ Segunda Aba
 with tab2:
     # Use st.write("") para adicionar um texto ao seu Web app
     st.write("Um crédito de carbono equivale a R$175,00")
@@ -27,7 +32,8 @@ with tab2:
     col5, col6 = st.columns(2)
     col1.write("Hexafluoreto de Enxofre")
     col2.write("23900 Créditos por Tonelada")
-
+    
+#------------------------------------------------------------------------ Terceira Aba
 with tab3:
     
     st.title("Calculadora")
@@ -46,7 +52,10 @@ with tab3:
     values = st.slider('Valor a ser doado (Em porcentagem)', 5, 80, 45)
 
     #Botão que aciona o cálculo de proporção de ganho pela quantia reduzida da emissão.
+    
     if st.button('Consultar'):
+        
+        #Coleta a informação dada dentro da caixa de seleção e exibe de acordo com o peso de cada gás em relação aos créditos condizentes
         if option == 'CO2 (Carbono)':
             st.write(number, "toneladas conferem", number, "créditos")  
             st.write(number, "créditos conferemR$", number*175)  
@@ -60,10 +69,6 @@ with tab3:
             st.write(number, "toneladas conferem", number*23900, "créditos")
             number = 23900*number
             st.write(number, "créditos conferem R$", number*175)  
-         
-     
-    
-        
 
      # Tabela representando a proporção e distribuição do ganho por tonelada de gás reduzido.
         
