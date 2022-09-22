@@ -44,6 +44,9 @@ with tab1:
 #------------------------------------------------------------------------ Segunda Aba
 with tab2:
     # Use st.write("") para adicionar um texto ao seu Web app
+    st.write('Crédito de carbbono é um conceito surgido no fim dos anos 90, visando reduzir a emissão de gáses que intensificam o efeito estufa e combater o grande problema das mudanças climáticas. A ideia surgiu no Protocolo de Kyoto, dizendo que cada tonelada de carbono ou outros gases reduzida por um país, uma certificação é emitida pelo MDL (Mecanismo de Desenvolvimento Limpo).')
+    st.write(' ')
+    st.write('Sendo assim, quanto mais reduzida é a emissão de carbono de um país, mais crédito se obtem. Atualmente, pode-se utilizar esta certificação como moeda com outros países que não tenham atingido sua meta anual estipulada. Existem diversas estratégias  para a redução destes compostos extremamente nocivos ao ambiente, tais como :')
     st.write("Um crédito de carbono equivale a R$175,00")
 
     #Coluna Informativa relacionada ao ganho de créditos relacionados à emissão reduzida.
