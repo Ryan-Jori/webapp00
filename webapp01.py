@@ -45,7 +45,7 @@ with tab2:
         
     st.write("Nosso web aplicativo “EcoDoa” visa como pricipal objetivo a solução de dois problemas através da redução de CO2 e outros gases estufa liberados na atmosfera durante o processo produtivo de grandes empresas. A ideia base do projeto consiste em medir a redução da emissão de gás na atmosfera e após isso converter a quantidade em créditos (que virão dos fundos nacionais e internacionais), calcular a porcentagem que será destinada tanto para doação quanto para as empresas, assim incentivando a redução dos gases causadores do aquecimento  global por parte das grandes empresas, destinando parte desses créditos para instituições e projetos de caridade e também ajudando na preservação do ecossistema. ")
     
-    cola, colb, colc = st.columns([4,6,2])
+    cola, colb, colc = st.columns([6,6,2])
 
     with cola:
         st.write("")
