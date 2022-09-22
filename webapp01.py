@@ -6,7 +6,7 @@ tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 
 with tab1:
     # Título
-    st.title("Estufa e Doa")
+    st.title("EcoDoa")
 
     # Descrição do Projeto
     st.header("A finalidade deste projeto é calcular o lucro baseado na redução da emissão de gases nocivos às condições globais, doando parte deste para Organizações Não Governamentais.")
