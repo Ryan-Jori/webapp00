@@ -52,7 +52,7 @@ with tab2:
     with colc:
         st.write("")
         
-    st.write("O projeto "Eco Doa" busca como principal objetivo a solução de dois problemas através da redução de CO2 e outros gáses que são relacionados diretamente ao efeito estufa. Utilizando-se do crédito carbônico, podemos direcionar um valor escolhido pela empresa para doações de ONGs de diferentes áreas que não só a ambiental. Créditos de carbono podem ser convertidos em moeda diretamente, sendo assim, a redução da emissão destes gases tendo em vista a remuneração pelos créditos tende a se tornar uma ideia interessante, uma vez que pode trazer além do lucro para a empresa, uma boa popularidade em relação ao seu comportamento ecológico.")
+    st.write("O projeto Eco Doa busca como principal objetivo a solução de dois problemas através da redução de CO2 e outros gáses que são relacionados diretamente ao efeito estufa. Utilizando-se do crédito carbônico, podemos direcionar um valor escolhido pela empresa para doações de ONGs de diferentes áreas que não só a ambiental. Créditos de carbono podem ser convertidos em moeda diretamente, sendo assim, a redução da emissão destes gases tendo em vista a remuneração pelos créditos tende a se tornar uma ideia interessante, uma vez que pode trazer além do lucro para a empresa, uma boa popularidade em relação ao seu comportamento ecológico.")
     
     cola, colb, colc = st.columns([5,6,2])
 
