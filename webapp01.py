@@ -30,8 +30,8 @@ with tab1:
     
     with cola:
         st.title('Ajude a salvar o Mundo!')
-        st.write('Com um pouco de consciência, podemos fazer muita diferença. Explore nosso site para saber mais.')
-        st.write('Se interessou pela causa? Entre em contato conosco e plante uma semente de esperança para bilhões de vidas.')
+        st.write('Com um pouco de consciência, podemos fazer muita diferença. Explore nosso site para saber mais. Se interessou pela causa? Entre em contato conosco e plante uma semente de esperança para bilhões de vidas.')
+        st.write('')
         
     with colb:
         st.write("")
