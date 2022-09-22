@@ -11,7 +11,7 @@ tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 #------------------------------------------------------------------------ Primeira Aba
 with tab1:
     # Título
-    cola, colb, colc = st.columns([4,6,1])
+    cola, colb, colc = st.columns([4,6,2])
 
     with cola:
         st.write("")
