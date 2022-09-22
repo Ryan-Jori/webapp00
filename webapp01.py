@@ -11,7 +11,7 @@ tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 #------------------------------------------------------------------------ Primeira Aba
 with tab1:
     # Título
-    st.image('https://media.discordapp.net/attachments/1021891230868717588/1022296227645239306/ecodoalogo-removebg-preview.png', width=400)
+    st.image('https://media.discordapp.net/attachments/1021891230868717588/1022296227645239306/ecodoalogo-removebg-preview.png', width=20px)
     st.title("EcoDoa")
 
     # Descrição do Projeto
