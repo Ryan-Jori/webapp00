@@ -26,7 +26,7 @@ add_selectbox = st.sidebar.selectbox(
 
 #------------------------------------------------------------------------ Primeira Aba
 with tab1:
-    st.image("https://assets.website-files.com/5d5e2ff58f10c53dcffd8683/5d73851c7a6dfa0d4c1e8297_plant.svg")
+    st.image("https://assets.website-files.com/5d5e2ff58f10c53dcffd8683/5d73851c7a6dfa0d4c1e8297_plant.svg", width=200)
     
 
 #------------------------------------------------------------------------ Primeira Aba
