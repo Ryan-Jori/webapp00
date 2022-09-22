@@ -36,7 +36,7 @@ with tab1:
     with colb:
         st.write("")
         st.write("")
-        st.image("https://assets.website-files.com/5d5e2ff58f10c53dcffd8683/5d73851c7a6dfa0d4c1e8297_plant.svg", width=200)
+        st.image("https://storyset.com/illustration/ecosystem/bro", width=200)
 
 #------------------------------------------------------------------------ Primeira Aba
 with tab2:
