@@ -14,7 +14,7 @@ with st.sidebar:
         st.write("")
     
     with colb:
-        st.title('https://media.discordapp.net/attachments/1021891230868717588/1022296227645239306/ecodoalogo-removebg-preview.png', width=200)
+        st.image('https://media.discordapp.net/attachments/1021891230868717588/1022296227645239306/ecodoalogo-removebg-preview.png', width=200)
 
     with colc:
         st.write("")
@@ -33,7 +33,7 @@ with tab1:
         st.write("")
     
     with colb:
-        st.image('Eco Doa')
+        st.title('Eco Doa')
 
     with colc:
         st.write("")
