@@ -33,7 +33,9 @@ with tab1:
         st.write('Com um pouco de consciência, podemos fazer muita diferença. Explore nosso site para saber mais.')
         st.write('Se interessou pela causa? Entre em contato conosco e plante uma semente de esperança para bilhões de vidas.')
         
-    with colb:   
+    with colb:
+        st.write("")
+        st.write("")
         st.image("https://assets.website-files.com/5d5e2ff58f10c53dcffd8683/5d73851c7a6dfa0d4c1e8297_plant.svg", width=200)
     
 
