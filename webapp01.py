@@ -13,7 +13,7 @@ with tab1:
     st.title("EcoDoa")
 
     # Descrição do Projeto
-    st.write("A finalidade deste projeto é calcular o lucro baseado na redução da emissão de gases nocivos às condições globais, doando parte deste para Organizações Não Governamentais.")
+    st.write("Nosso web aplicativo “EcoDoa” visa como pricipal objetivo a solução de dois problemas através da redução de CO2 e outros gases estufa liberados na atmosfera durante o processo produtivo de grandes empresas. A ideia base do projeto consiste em medir a redução da emissão de gás na atmosfera e após isso converter a quantidade em créditos (que virão dos fundos nacionais e internacionais), calcular a porcentagem que será destinada tanto para doação quanto para as empresas, assim incentivando a redução dos gases causadores do aquecimento  global por parte das grandes empresas, destinando parte desses créditos para instituições e projetos de caridade e também ajudando na preservação do ecossistema. ")
     
 #------------------------------------------------------------------------ Segunda Aba
 with tab2:
