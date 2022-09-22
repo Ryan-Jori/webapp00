@@ -37,7 +37,9 @@ with tab1:
         st.write("")
         st.write("")
         st.image("https://assets.website-files.com/5d5e2ff58f10c53dcffd8683/5d73851c7a6dfa0d4c1e8297_plant.svg", width=200)
-    
+        
+    if st.button('Saiba Mais!'):
+        
 
 #------------------------------------------------------------------------ Primeira Aba
 with tab2:
@@ -113,7 +115,7 @@ with tab4:
     #Coleção dos dados relacionados à quantidade reduzida.
     number = st.number_input('insira o valor em Toneladas')
     
-    values = st.slider('Valor a ser doado (Em porcentagem)', 5, 80, 45)
+    values = st.slider('Valor a ser doado (Em porcentagem)', 5, 80, 5)
 
     #Botão que aciona o cálculo de proporção de ganho pela quantia reduzida da emissão.
     
