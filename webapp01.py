@@ -11,15 +11,15 @@ tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 #------------------------------------------------------------------------ Primeira Aba
 with tab1:
     # Título
-    col1, col2, col3 = st.beta_columns([1,6,1])
+    cola, colb, colc = st.beta_columns([1,6,1])
 
-    with col1:
+    with cola:
     st.write("")
     
-    with col2:
+    with colb:
     st.image('https://media.discordapp.net/attachments/1021891230868717588/1022296227645239306/ecodoalogo-removebg-preview.png', width=200)
 
-    with col3:
+    with colc:
     st.write("")
 
     # Descrição do Projeto
@@ -35,7 +35,7 @@ with tab2:
     col1.write("Carbono")
     col2.write("1 Crédito por Tonelada")
 
-    col3, col5 = st.columns(2)
+    col3, col4 = st.columns(2)
     col1.write("Metano")
     col2.write("21 Créditos por Tonelada")
 
