@@ -14,7 +14,7 @@ with st.sidebar:
         st.write("")
     
     with colb:
-        st.tittle('ECO DOA')
+        st.title('ECO DOA')
 
     with colc:
         st.write("")
