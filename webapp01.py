@@ -5,9 +5,8 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('https://media.discordapp.net/attachments/1021891230868717588/1022296227645239306/ecodoalogo-removebg-preview.png')
-
-st.image(image)
+st.markdown("[![Foo](https://media.discordapp.net/attachments/1021891230868717588/1022296227645239306/ecodoalogo-removebg-preview.png)]
+(https://media.discordapp.net/)")
 
 #Separação de Abas
 tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
