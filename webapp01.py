@@ -46,17 +46,18 @@ with tab3:
     if st.button('Consultar'):
         if option == 'CO2 (Carbono)':
             st.write(number, "toneladas conferem", number, "créditos")  
-
+            st.write(number, "créditos conferem", number*175)  
 
         if option == 'CH4 (Gás Metano)':
             st.write(number, "toneladas conferem", number*21, "créditos")
             number = 21*number
-
+            st.write(number, "créditos conferem", number*175)  
+            
         if option == 'SF6 (Hexafluoreto de Enxofre)':
             st.write(number, "toneladas conferem", number*23900, "créditos")
             number = 23900*number
-            
-     st.write(number, "créditos conferem", number*175)       
+            st.write(number, "créditos conferem", number*175)  
+         
      
     
         
