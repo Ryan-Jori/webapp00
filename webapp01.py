@@ -92,6 +92,6 @@ with tab3:
 
         st.subheader("Parcela do Serviço contratado: ")
         st.write("R$", ((number*175)/100)*20, " (", 20, "%)")
-        st.write("")
+        st.write("") 
 
 
