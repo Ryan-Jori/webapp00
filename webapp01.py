@@ -60,16 +60,17 @@ with tab3:
         
 
      # Tabela representando a proporção e distribuição do ganho por tonelada de gás reduzido.
+        
         st.write("Valor Doado: ")
         st.write("R$", ((number*175)/100)*values, " (", values," %)")
         st.write("")
 
         st.write("Lucro da Empresa: ")
-        st.write("R$", ((number*175)/100)*80-values, " (80%)")
+        st.write("R$", ((number*175)/100)*80-values, " (", 80 - values, "%)")
         st.write("")
 
         st.write("Parcela do Serviço contratado: ")
-        st.write("R$", ((number*175)/100)*20, " (20%)")
+        st.write("R$", ((number*175)/100)*20, " (", 20, "%)")
         st.write("")
 
 
