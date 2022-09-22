@@ -8,6 +8,11 @@ from PIL import Image
 #Separação de Abas
 tab1, tab2, tab3 = st.tabs(["Sobre", "Informações", "Calculadora"])
 
+add_selectbox = st.sidebar.selectbox(
+    "Contate-nos via:",
+    ("Email", "Telefone")
+)
+
 #------------------------------------------------------------------------ Primeira Aba
 with tab1:
     # Título
