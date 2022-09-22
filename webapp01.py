@@ -28,7 +28,10 @@ with tab2:
     col1.write("Hexafluoreto de Enxofre")
     col2.write("23900 Créditos por Tonelada")
 
-with tab3:    
+with tab3:
+    
+    st.title("Calculadora")
+    
     # Use st.write("") para adicionar um texto ao seu Web app
     st.write("Insira abaixo as informações necessárias para o cálculo.")
 
@@ -64,15 +67,15 @@ with tab3:
 
      # Tabela representando a proporção e distribuição do ganho por tonelada de gás reduzido.
         
-        st.header("Valor Doado: ")
+        st.subheader("Valor Doado: ")
         st.write("R$", ((number*175)/100)*values, " (", values," %)")
         st.write("")
 
-        st.header("Lucro da Empresa: ")
+        st.subheader("Lucro da Empresa: ")
         st.write("R$", ((number*175)/100)*80-values, " (", 80 - values, "%)")
         st.write("")
 
-        st.header("Parcela do Serviço contratado: ")
+        st.subheader("Parcela do Serviço contratado: ")
         st.write("R$", ((number*175)/100)*20, " (", 20, "%)")
         st.write("")
 
